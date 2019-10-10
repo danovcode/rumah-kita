@@ -164,7 +164,7 @@ p{
 	height: 2px;	
 }
 
-ul {
+.nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -172,7 +172,7 @@ ul {
   font-family: Poppins;
 }
 
-li {
+.nav ul li {
   float: left;
 }
 
@@ -240,7 +240,7 @@ li a {
   margin-bottom: 50px;
   margin-right: 20px;
   margin-left: 20px;
-  width: 250px;
+  width: 240px;
 }
 
 .card2 {
@@ -283,4 +283,37 @@ li a {
 .footer{
 	border-top: 1px solid #DEDEDE;
 	padding-top: 50px;
+}
+
+.select{
+	font-family: Poppins;
+	width: 30%;
+	padding: 16px 30px;
+	border-radius: 70px;
+	border: 0;
+}
+
+.input-sm{
+	border: 1px solid #C9C9C9;
+	border-radius: 30px;
+	padding: 16px 30px;
+	padding-right: 0;
+	border: 0;
+	width: 30%;
+	height: 20px;	
+}
+
+.button-xxs{
+	border: 0;
+	background-color: #F9196A;
+	width: 10%;
+	padding: 8px;
+	height: 50px;
+	border-radius: 30px;
+	font-family: Poppins;
+	float: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	cursor: pointer;
 }

@@ -104,6 +104,13 @@
 	display: inline-block;
 	padding: 10px;
 }
+
+.ml-10{
+	margin-left: 10px;
+}
+.mr-10{
+	margin-right: 10px;
+}
 .mt-50{
 	margin-top: 50px;
 }
