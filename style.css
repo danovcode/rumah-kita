@@ -225,25 +225,45 @@ li a {
 	border: 1px solid #DEDEDE;
 	border-radius: 38.6329px;
 	padding-bottom: 35px;
-	padding-top: 35px;
+	padding-top: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
-	width: 30%;
+	width: 120px; 
+	height: 60px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 3px;
   transition: 0.3s;
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
   width: 250px;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+  transition: 0.3s;
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 350px;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .card-container {
-  padding: 2px 16px;
+  padding: 10px;
 }
 
 .card-corner{
