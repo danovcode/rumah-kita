@@ -39,6 +39,13 @@
 	width: 100%
 }
 
+.col-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
 .col-md-auto {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -124,6 +131,15 @@
 .ml-30{
 	margin-left: 30px;
 }
+
+.ml-20{
+	margin-left: 20px;
+}
+
+.ml-10{
+	margin-left: 10px;
+}
+
 .ml-250{
 	margin-left: 50px;
 }
