@@ -1,164 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>RumahKita</title>
+	<title>Lowongan Pekerjaan</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="grid.css">
 </head>
 <body>
-	<div class="container-img">
-		<nav class="nav" style="padding: 0px;">
-			<ul>
-				<li><a href="index.html"><img src="./assets/logo1.png" style="margin-bottom: 5px; margin-right: 30px;"></a></li>
-				<li><a href="pelatihan.html">Pelatihan</a></li>
-				<li><a href="loker.html">lowongan Pekerjaan</a>
-				</li>
-				<li><a href="karya.html">Karya</a></li>
-				<li><a href="cerita.html" class="mr-50">Cerita Sukses</a></li>
-				<li><a href="profile.html" class="mr-30">Lihat Profile</a></li>
-				<li class="li-button"><button class="button-pink-s">logout</button></li>
-			</ul>
-		</nav>
-		<div class="highlight mt-120" style="text-align: center;">
-			<h1 align="center">Semua orang memiliki kesempatan yang sama.</h1>
-		</div>
-		<div class="sub-highlight mt-30" style="text-align: center;">
-			<h3  style="color: #ffffff" align="center" class="mb-50">Temukan kesempatan untuk bekerja sesuai dengan passion dan keistimewaan kamu bersama website rumahkita</h4>
-			<div class="row" style="width: 90%; margin: 0 auto;">
-				<input type="text" name="search" placeholder="Posisi,Perusahaaan,Lokasi" class="search mr-20 ml-20">
-				<button class="button-pink-xs mr-20">cari</button>
-			</div>
+	<nav class="nav">
+		<ul>
+			<li><a href="index.html"><img src="./assets/logo1.png" style="margin-bottom: 5px; margin-right: 30px;"></a></li>
+			<li><a href="pelatihan.html">Pelatihan</a></li>
+			<li>
+				<a href="loker.html">lowongan Pekerjaan</a>
+				<hr width = "70%", color = "#F9196A" style="margin-top: -10px;">
+			</li>
+			<li><a href="karya.html">Karya</a></li>
+			<li><a href="cerita.html" class="mr-50">Cerita Sukses</a></li>
+			<li><a href="profile.html" class="mr-30">Lihat Profile</a></li>
+			<li class="li-button"><button class="button-pink-s">logout</button></li>
+		</ul>
+	</nav>
+	<div class="container1" style="background-image: url(./assets/gambar2.png); padding-bottom: 60px;">
+		<div class="highlight mid" align="center">
+			<h2 style="width: 70%; color: #ffffff" align="center">Apakah kamu mencari talenta untuk perusahannya ?</h2>
+			<h5 style="color: #ffffff;" class="mt-20">Daftarkan perusahaan anda sekarang dan temukan talenta siap kerja yang sesuai dengan posisi yang tersedia.</h5>
+			<button class="button-pink-xs mt-30" style="color: #F9196A; background-color: #ffffff;">Penyedia Kerja</button>
 		</div>
 	</div>
-	<div class="container1" style="padding-bottom: 150px; padding-top: 150px; text-align: center;">
-		<div class="feature">
-			<h2 align="center">Fitur Kami</h2>
-			<h3 align="center" class="mt-50" style="line-height: 40px;">Membantu kamu dalam menggali keahlian, membangun koneksi serta mengasah potensi semudah mungkin.</h3>
-			<hr width = "20%", color = "#F9196A" class="mt-30">
+	<div class="container1 " style="padding-bottom: 150px; padding-top: 150px; background-color : #eeeeee;">
+		<div class="row">
+			<select name="category" class="select mr-30">
+				<option value=""selected>Pilih Kategori</option>
+				<option value="1">Komputer</option>
+				<option value="2" >Otomotif</option>
+				<option value="3">Memasak</option>
+				<option value="4">Melukis</option>
+				<option value="5">Bernyanyi</option>
+			</select>
+			<select name="location" class="select mr-30">
+				<option value=""selected>Lokasi</option>
+				<option value="1">Jakarta</option>
+				<option value="2" >Purwokerto</option>
+				<option value="3">Bandung</option>
+				<option value="4">Yogyakarta</option>
+				<option value="5">Tegal</option>
+			</select>
+			<input type="text" name="perusahaan" class="input-sm mr-30" placeholder="Perusahaan">
+			<button class="button-xxs">Cari</button>
 		</div>
-		<div class="row mt-30 ml-50">
-			<div class="col-6">
-				<div class="content ">
-					<img src="./assets/pelatihan.png">
-				</div>
-				<h3 style="font-family: Poppins-Bold" class="mt-30">Pelatihan</h3>
-				<h4 style="width: 80%" class="mid">Kantongi sebanyak banyaknya skill untuk dapat bekerja di perusahaan impian</h4>
-			</div>
-			<div class="col-6  mid">
-				<div class="content">
-					<img src="./assets/pekerjaan.png">
-				</div>
-				<h3 style="font-family: Poppins-Bold" class="mt-30">Pekerjaan</h3>
-				<h4 style="width: 85%" class="mid">Mempertemukan perusahaan dengan keluargakita yang siap bekerja</h4>
-			</div>
-			<div class="col-6">
-				<div class="content ">
-					<img src="./assets/karya.png">
-				</div>
-				<h3 style="font-family: Poppins-Bold" class="mt-30">Karya</h3>
-				<h4 style="width: 80%" class="mid">Sebagai wadah untuk memamerkan hasil karya yang telah dibuat oleh sahabatkita</h4>
-			</div>
-		</div>
-	</div>
-
-	<div class="container1" style=" background-color : #F5F9F7; padding-bottom: 150px; padding-top: 150px;">
-		<div class="feature">
-			<h2 align="center">Pelatihan Mandiri</h2>
-			<h3 align="center" class="mt-50" style="line-height: 40px;">Membantu anda dalam menggali keahlian, menemukan koneksi serta mengasah potensi semudah mungkin.</h3>
-			<hr width = "20%", color = "#F9196A" class="mt-30">
-		</div>
-		<div class="row mt-50">
-			<div class="col-md-auto mid">
-				<div class="card">
-					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
-					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
-					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
-					  	<h5 style="font-size: 9px;">13 September 2019</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
-					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
-					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
-					  </div>
-					  <a href=""><p>Info lengkap ></p></a>
-					</div>	
-				</div>
-				<div class="card">
-					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
-					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
-					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
-					  	<h5 style="font-size: 9px;">13 September 2019</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
-					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
-					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
-					  </div>
-					  <a href=""><p>Info lengkap ></p></a>
-					</div>	
-				</div>
-				<div class="card">
-					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
-					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
-					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
-					  	<h5 style="font-size: 9px;">13 September 2019</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
-					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
-					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
-					  </div>
-					  <a href=""><p>Info lengkap ></p></a>
-					</div>	
-				</div>
-				<div class="card">
-					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
-					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
-					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
-					  	<h5 style="font-size: 9px;">13 September 2019</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
-					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
-					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
-					  </div>
-					  <a href=""><p>Info lengkap ></p></a>
-					</div>	
-				</div>
-			</div>
-		</div>
-		<div class="mid" align="center" style="margin-top: 50px;">
-			<button class="button-pink-xs">Lihat Selengkapnya</button>
-		</div>
-	</div>
-
-	<div class="container1" style="padding-bottom: 150px; padding-top: 150px; background-color : #EEEEEE;">
-		<h2 align="center" style="margin-left: 15px;">Lowongan Pekerjaan Baru</h2>
-		<hr width = "10%", color = "#F9196A" class="mt-30">
+		<h1 style="color: #000000; margin-left: 15px;" class="mt-100">Kreatif</h1>
+		<hr width="100px" style="margin-left: 15px;" align="left" color = "#F9196A" size="3px">
 		<div class="row mt-50">
 			<div class="col-md-auto mid">
 				<div class="card">
@@ -253,218 +144,303 @@
 					  <a href=""><p>Info lengkap ></p></a>
 					</div>	
 				</div>
-				<div class="card">
-					<div class="card-corner">
-						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
-					</div>
-					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
-					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
-					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
-					  	<h5 style="font-size: 9px;">13 September 2019</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
-					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
-					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
-					  </div>
-					  <a href=""><p>Info lengkap ></p></a>
-					</div>	
-				</div>
-				<div class="card">
-					<div class="card-corner">
-						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
-					</div>
-					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
-					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
-					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
-					  	<h5 style="font-size: 9px;">13 September 2019</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
-					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
-					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
-					  </div>
-					  <a href=""><p>Info lengkap ></p></a>
-					</div>	
-				</div>
-				<div class="card">
-					<div class="card-corner">
-						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
-					</div>
-					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
-					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
-					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
-					  	<h5 style="font-size: 9px;">13 September 2019</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
-					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
-					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
-					  </div>
-					  <a href=""><p>Info lengkap ></p></a>
-					</div>	
-				</div>
-				<div class="card">
-					<div class="card-corner">
-						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
-					</div>
-					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
-					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
-					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
-					  	<h5 style="font-size: 9px;">13 September 2019</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
-					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
-					  </div>
-					  <div class="row">
-					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
-					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
-					  </div>
-					  <a href=""><p>Info lengkap ></p></a>
-					</div>	
-				</div>
 			</div>
 		</div>
-		<div class="mid" align="center" style="margin-top: 50px;">
-			<button class="button-pink-xs">Lihat Selengkapnya</button>
-		</div>
-	</div>
-	<div class="container1" style="padding-bottom: 150px; padding-top: 150px; background-color : #F9F9F9;">
-		<div class="feature">
-			<h2 align="center">Hasil Karya</h2>
-			<h3 align="center" class="mt-50" style="line-height: 40px;">Setiap kekurangan yang tuhan berikan pasti mempunyai kelebihan disisi lain, contohnya pada keluargakita yang telah berjuang dan sukses</h3>
-			<hr width = "20%", color = "#F9196A" class="mt-30">
-		</div>
+		<h1 style="color: #000000; margin-left: 15px;" class="mt-100">Kreatif</h1>
+		<hr width="10%" style="margin-left: 15px;" align="left" color = "#F9196A" size="3px">
 		<div class="row mt-50">
 			<div class="col-md-auto mid">
-				<div class="card2">
-					<img src="./assets/card3/karya1.png" alt="Avatar" style="width:100%">
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
 					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Kerajinan dari bahan koran</h4> 
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
 					  <div class="row">
-					  	<h5>200 Likes. </h5>
-					  	<h5>120K Dilihat. </h5>
-					  	<h5>5 Komentar. </h5>
-					  	<img src="./assets/card3/love1.png" style="margin-left: 70px; margin-top: 10px;" width="22px" height="20px">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
 					  </div>
 					  <div class="row">
-					  	<img src="./assets./card3/profile1.png">
-					  	<h4 style="font-size: 16px; margin-left: 10px; margin-top: 15px;">Zuhri Andika</h4>
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
 					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
 					</div>	
 				</div>
-				<div class="card2">
-					<img src="./assets/card3/karya1.png" alt="Avatar" style="width:100%">
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
 					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Kerajinan dari bahan koran</h4> 
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
 					  <div class="row">
-					  	<h5>200 Likes.</h5>
-					  	<h5>120K Dilihat</h5>
-					  	<h5>5 Komentar </h5>
-					  	<img src="./assets/card3/love2.png" style="margin-left: 70px; margin-top: 10px;" width="22px" height="20px">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
 					  </div>
 					  <div class="row">
-					  	<img src="./assets./card3/profile1.png">
-					  	<h4 style="font-size: 16px; margin-left: 10px; margin-top: 15px;">Zuhri Andika</h4>
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
 					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
 					</div>	
 				</div>
-				<div class="card2">
-					<img src="./assets/card3/karya1.png" alt="Avatar" style="width:100%">
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
 					<div class="card-container">
-					  <h4 style="font-family: Poppins-Bold">Kerajinan dari bahan koran</h4> 
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
 					  <div class="row">
-					  	<h5>200 Likes.</h5>
-					  	<h5>120K Dilihat</h5>
-					  	<h5>5 Komentar </h5>
-					  	<img src="./assets/card3/love2.png" style="margin-left: 70px; margin-top: 10px;" width="22px" height="20px">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
 					  </div>
 					  <div class="row">
-					  	<img src="./assets./card3/profile1.png">
-					  	<h4 style="font-size: 16px; margin-left: 10px; margin-top: 15px;">Zuhri Andika</h4>
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
 					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
+					</div>	
+				</div>
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
+					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
 					</div>	
 				</div>
 			</div>
 		</div>
-		<div class="mid" align="center" style="margin-top: 50px;">
-			<button class="button-pink-xs">Lihat Selengkapnya</button>
-		</div>
-	</div>
-	<div class="container1" style="padding-bottom: 150px; padding-top: 150px; background-color : #F9F9F9;">
-		<div class="feature">
-			<h2 align="center">Cerita Sukses</h2>
-			<h3 align="center" class="mt-50" style="line-height: 40px;">Setiap kekurangan yang tuhan berikan pasti mempunyai kelebihan disisi lain, contohnya pada keluargakita yang telah berjuang dan sukses</h3>
-			<hr width = "20%", color = "#F9196A" class="mt-30">
-		</div>
+		<h1 style="color: #000000; margin-left: 15px;" class="mt-100">Kreatif</h1>
+		<hr width="10%" style="margin-left: 15px;" align="left" color = "#F9196A" size="3px">
 		<div class="row mt-50">
 			<div class="col-md-auto mid">
-				<div class="card2">
-					<img src="./assets/card3/karya1.png" alt="Avatar" style="width:100%">
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
 					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
 					  <div class="row">
-					  	<span style="font-size: 10px; color: #747474">20 September 2019   .</span>
-					  	<span style="font-size: 10px; color: #747474">Zuhri Andika</span>
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
 					  </div>
-					  <h3 class="mt-10" style="font-family: Poppins-Bold">Pengusaha Kopi Jos</h3>
-					  <h5 style="line-height: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec habitasse sed scelerisque nibh.</h5>
-					  <a href=""><p>baca Selengkapnya ></p></a>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
 					</div>	
 				</div>
-				<div class="card2">
-					<img src="./assets/card3/karya1.png" alt="Avatar" style="width:100%">
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
 					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
 					  <div class="row">
-					  	<span style="font-size: 10px; color: #747474">20 September 2019   .</span>
-					  	<span style="font-size: 10px; color: #747474">Zuhri Andika</span>
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
 					  </div>
-					  <h3 class="mt-10" style="font-family: Poppins-Bold">Pengusaha Kopi Jos</h3>
-					  <h5 style="line-height: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec habitasse sed scelerisque nibh.</h5>
-					  <a href=""><p>baca Selengkapnya ></p></a>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
 					</div>	
 				</div>
-				<div class="card2">
-					<img src="./assets/card3/karya1.png" alt="Avatar" style="width:100%">
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
 					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
 					  <div class="row">
-					  	<span style="font-size: 10px; color: #747474">20 September 2019   .</span>
-					  	<span style="font-size: 10px; color: #747474">Zuhri Andika</span>
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
 					  </div>
-					  <h3 class="mt-10" style="font-family: Poppins-Bold">Pengusaha Kopi Jos</h3>
-					  <h5 style="line-height: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec habitasse sed scelerisque nibh.</h5>
-					  <a href=""><p>baca Selengkapnya ></p></a>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
+					</div>	
+				</div>
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
+					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
 					</div>	
 				</div>
 			</div>
 		</div>
-		<div class="mid" align="center" style="margin-top: 50px;">
-			<button class="button-pink-xs">Lihat Selengkapnya</button>
+		<h1 style="color: #000000; margin-left: 15px;" class="mt-100">Kreatif</h1>
+		<hr width="10%" style="margin-left: 15px;" align="left" color = "#F9196A" size="3px">
+		<div class="row mt-50">
+			<div class="col-md-auto mid">
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
+					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
+					</div>	
+				</div>
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
+					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
+					</div>	
+				</div>
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
+					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
+					</div>	
+				</div>
+				<div class="card">
+					<div class="card-corner">
+						<h5 style="font-size: 10px; margin: 0px; margin-top: 5px; color: #ffffff; font-family: Poppins-Light" >3 hari lagi</h5>
+					</div>
+					<img src="./assets/card1/jahit.png" alt="Avatar" style="width:100%">
+					<div class="card-container">
+					  <h4 style="font-family: Poppins-Bold">Pelatihan Menjahit</h4> 
+					  <h4 style="font-size: 10px;">Jangan lewatkan kesempatan unt....</h4> 
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/calendar.png">
+					  	<h5 style="font-size: 9px;">13 September 2019</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/clock.png">
+					  	<h5 style="font-size: 9px;">10.00 - 12.00 WIB</h5>
+					  </div>
+					  <div class="row">
+					  	<img style="width: 10%; height: 10%; margin-top: 10px; margin-right: 10px;" src="./assets/card1/loc.png">
+					  	<h5 style="font-size: 9px;">Pendopo Kec. Slawi</h5>
+					  </div>
+					  <a href=""><p>Info lengkap ></p></a>
+					</div>	
+				</div>
+			</div>
 		</div>
-	</div>
-	<img src="./assets/footer.png">
-	<div class="footer container1">
+		<div class="footer mt-100">
 			<div class="row">
 				<div class="col-5 mr-30">
 					<img src="assets/logo1.png">
@@ -498,5 +474,6 @@
 				</div>
 			</div>
 		</div>
+	</div>
 </body>
 </html>
