@@ -164,6 +164,10 @@ p{
 	height: 2px;	
 }
 
+.nav{
+	padding-top: 0px;
+}
+
 .nav ul {
   list-style-type: none;
   margin: 0;
@@ -323,4 +327,13 @@ li a {
 	padding: 20px;
 	width: 100%;
 	border-radius: 10px;
+}
+
+.card3{
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 10px;
+}
+.card-head{
+	padding: 15px;
 }
