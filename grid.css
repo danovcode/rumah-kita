@@ -28,7 +28,7 @@
 	width: 100%;
   	padding-right: 140px;
   	padding-left: 140px;
-  	padding-top: 42px; 
+  	padding-top: 25px; 
   	margin-right: auto;
   	margin-left: auto;
   	box-sizing: border-box;
@@ -117,6 +117,9 @@
 }
 .mr-10{
 	margin-right: 10px;
+}
+.mr-15{
+	margin-right: 15px;
 }
 .mt-50{
 	margin-top: 50px;
