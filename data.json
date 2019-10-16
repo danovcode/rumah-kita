@@ -1,0 +1,39 @@
+[
+	{
+		"id" : 1,
+		"foto" : "jahit.png",
+		"pelatihan" : "Pelatihan Menjahit",
+		"deskripsi" : "Jangan lewatkan kesempatan untuk",
+		"tanggal" : "13 Desember 2019",
+		"jam" : "10.00 - 12.00 WIB",
+		"tempat" : "Pendopo Kec. Slawi"
+	},
+	{
+		"id" : 2,
+		"foto" : "kayu.png",
+		"pelatihan" : "Pelatihan Kreasi Kayu",
+		"deskripsi" : "Kerajinan kayu merupakan benda",
+		"tanggal" : "29 Oktober 2019",
+		"jam" : "08.00 - 11.00 WIB",
+		"tempat" : "Balai desa Jatilawang"
+	},
+	{
+		"id" : 3,
+		"foto" : "melukis.png",
+		"pelatihan" : "Pelatihan Melukis",
+		"deskripsi" : "Jika saudara disabilitas punya",
+		"tanggal" : "28 Oktober 2019",
+		"jam" : "13.00 - 15.00 WIB",
+		"tempat" : "Pendopo Purwokerto Wetan"
+	},
+	{
+		"id" : 4,
+		"foto" : "besi.png",
+		"pelatihan" : "Pelatihan Pandai Besi",
+		"deskripsi" : "Ikuti pelatihan pandai besi untuk",
+		"tanggal" : "19 Desember 2019",
+		"jam" : "10.00 - 15.00 WIB",
+		"tempat" : "Lab. Purwokerto Kidul"
+	},
+	
+]

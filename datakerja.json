@@ -1,0 +1,43 @@
+[
+	{
+		"id" : 1,
+		"hari" : "3 hari lagi" ,
+		"foto":"",
+		"type":"Full-time",
+		"Judul" : "Grapich Designer",
+		"perusahaan":"PT.Holcim",
+		"lokasi":"Purwokerto, Jawa Tengah",
+		"keterangan":"Beberapa jenis disabilitas",
+
+	},
+	{
+		"id" : 2,
+		"hari" : "7 hari lagi" ,
+		"foto":"",
+		"Judul" : "Administrasi",
+		"perusahaan":"PT.Kereta Api Indonesia",
+		"lokasi":"Purwokerto, Jawa Tengah",
+		"keterangan":"Beberapa jenis disabilitas",
+
+	},
+	{
+		"id" : 3,
+		"hari" : "3 hari lagi" ,
+		"foto":"",
+		"Judul" : "Grapich Designer",
+		"perusahaan":"PT.Holcim",
+		"lokasi":"Purwokerto, Jawa Tengah",
+		"keterangan":"Beberapa jenis disabilitas",
+
+	},
+	{
+		"id" : 4,
+		"hari" : "3 hari lagi" ,
+		"foto":"",
+		"Judul" : "Grapich Designer",
+		"perusahaan":"PT.Holcim",
+		"lokasi":"Purwokerto, Jawa Tengah",
+		"keterangan":"Beberapa jenis disabilitas",
+
+	},
+]
